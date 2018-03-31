@@ -13,8 +13,6 @@ export class TranslatorComponent {
   }
 
   onKey(value:string) {
-    console.log(value);
-    console.log(this.translator.toKotkot(value));
     this.values = this.translator.toKotkot(value);
   }
 }

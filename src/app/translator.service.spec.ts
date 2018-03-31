@@ -1,12 +1,11 @@
 import { TestBed, inject } from '@angular/core/testing';
 
 import { TranslatorService } from './translator.service';
-import { LoggerService } from './logger.service';
 
 describe('TranslatorService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [TranslatorService, LoggerService]
+      providers: [TranslatorService]
     });
   });
 

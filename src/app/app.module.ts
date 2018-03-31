@@ -5,8 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { TranslatorComponent } from './translator.component';
 import { TranslatorService } from './translator.service';
-import { LoggerService } from './logger.service';
-
 
 @NgModule({
   declarations: [
@@ -18,8 +16,7 @@ import { LoggerService } from './logger.service';
     BrowserModule
   ],
   providers: [
-    TranslatorService,
-    LoggerService
+    TranslatorService
   ],
   bootstrap: [AppComponent]
 })
