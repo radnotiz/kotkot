@@ -1,3 +1,7 @@
 .break-word {
   overflow-wrap: break-word;
 }
+
+div {
+  margin: 1em;
+}

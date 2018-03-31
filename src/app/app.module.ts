@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { TranslatorComponent } from './translator.component';
@@ -13,6 +14,7 @@ import { LoggerService } from './logger.service';
     TranslatorComponent
   ],
   imports: [
+    NgbModule.forRoot(),
     BrowserModule
   ],
   providers: [
