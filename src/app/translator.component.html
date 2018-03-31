@@ -1,7 +1,5 @@
 <div>
-  <h2>
-    Type your words here:
-  </h2>
-  <input #box (keyup)="onKey(box.value)">
+  <input placeholder="Type your words here"
+         i18n-placeholder="main input field|Explaining the purpose of input field for the text@@main-input" #box (keyup)="onKey(box.value)" >
   <p class=".break-word" *ngFor="let value of values">{{value}}</p>
 </div>

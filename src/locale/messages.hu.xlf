@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file original="ng.template" id="ngi18n">
+    <unit id="app-title">
+      <notes>
+        <note category="description">Title on the top of the app</note>
+        <note category="meaning">app title</note>
+        <note category="location">app/app.component.ts:6</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ title }}"/></source>
+        <target>KotKot</target>
+      </segment>
+    </unit>
+    <unit id="main-input">
+      <notes>
+        <note category="description">Explaining the purpose of input field for the text</note>
+        <note category="meaning">main input field</note>
+        <note category="location">app/translator.component.ts:2</note>
+      </notes>
+      <segment>
+        <source>Type your words here</source>
+        <target>Kotkodácsolni való</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
