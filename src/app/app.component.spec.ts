@@ -2,7 +2,6 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { TranslatorComponent } from './translator.component';
 import { TranslatorService } from './translator.service';
-import { LoggerService } from './logger.service';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,8 +11,7 @@ describe('AppComponent', () => {
         TranslatorComponent
       ],
       providers: [
-        TranslatorService,
-        LoggerService
+        TranslatorService
       ],
     }).compileComponents();
   }));
