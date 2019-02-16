@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build --prod",
-    "test": "ng test --single-run",
+    "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "postinstall": "ng build --aot --prod --i18n-file=src/locale/messages.hu.xlf --i18n-format=xlf2 --i18n-locale=hu"
