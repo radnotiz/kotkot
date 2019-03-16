@@ -5,11 +5,10 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod",
+    "build": "ng build --aot --prod --i18n-file=src/locale/messages.hu.xlf --i18n-format=xlf2 --i18n-locale=hu",
     "test": "ng test --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod --i18n-file=src/locale/messages.hu.xlf --i18n-format=xlf2 --i18n-locale=hu"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -56,5 +55,6 @@
   "engines": {
     "node": "10.15.1",
     "npm": "6.4.1"
-  }
+  },
+  "heroku-run-build-script": true
 }
