@@ -52,9 +52,5 @@
     "ts-node": "^8.0.2",
     "tslint": "^5.12.1"
   },
-  "engines": {
-    "node": "10.15.1",
-    "npm": "6.4.1"
-  },
   "heroku-run-build-script": true
 }
