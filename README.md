@@ -1,5 +1,6 @@
-# KotKot [![Build Status](https://travis-ci.org/radnotiz/kotkot.svg?branch=master)](https://travis-ci.org/radnotiz/kotkot)
+# KotKot [![Deploy static content to Pages](https://github.com/radnotiz/kotkot/actions/workflows/static.yml/badge.svg)](https://github.com/radnotiz/kotkot/actions/workflows/static.yml)
 
+Visit https://radnotiz.github.io/kotkot/ to see it in action
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
